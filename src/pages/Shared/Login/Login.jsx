@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../../Providers/AuthProvider";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaGoogle, FaGithub } from 'react-icons/fa';
 
 
 const Login = () => {
@@ -81,8 +82,8 @@ const Login = () => {
                                 </div>
                             </form>
                             <div className="w-auto m-auto text-center my-6">
-                                <button onClick={() => handleSocialLogin(googleLogin)} className="btn text-white normal-case bg-rose-500 mr-4">Google</button>
-                                <button onClick={() => handleSocialLogin(githubLogin)} className="btn text-white normal-case bg-rose-500 ml-4">Github</button>
+                                <button onClick={() => handleSocialLogin(googleLogin)} className="btn text-white normal-case bg-rose-500 mr-4"><span><FaGoogle></FaGoogle></span>Google</button>
+                                <button onClick={() => handleSocialLogin(githubLogin)} className="btn text-white normal-case bg-rose-500 ml-4"><span><FaGithub></FaGithub></span>Github</button>
                             </div>
                         </div>
                     </div>

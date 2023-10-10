@@ -29,7 +29,7 @@ const DisplayRewards = () => {
                     <div className="card card-side w-96 bg-rose-50 shadow-xl">
                         <figure><img src="https://i.ibb.co/fk5dgww/sewing-machine.jpg" alt="Movie" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">1st Runners Up!</h2>
+                            <h2 className="card-title">1st Runner Up!</h2>
                             <p className="text-xl font-medium text-rose-500">Sewing Machine</p>
                             <div className="card-actions justify-end">
                                 <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
@@ -39,7 +39,7 @@ const DisplayRewards = () => {
                     <div className="card card-side w-96 bg-rose-50 shadow-xl">
                         <figure><img src="https://i.ibb.co/jkWBMSG/mobile.jpg" alt="Movie" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">2nd Runners Up!</h2>
+                            <h2 className="card-title">2nd Runner Up!</h2>
                             <p className="text-xl font-medium text-rose-500">Mobile</p>
                             <div className="card-actions justify-end">
                                 <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
