@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Entrepreneurship Conference",
+    "image": "https://i.ibb.co/0MCxKD6/entrepreneurship.jpg",
+    "motive": "Empowering Women Entrepreneurs",
+    "price": 249.99,
+    "description": "Join us for the Entrepreneurship Conference, a dynamic event dedicated to empowering women entrepreneurs. Over the course of three days, you'll gain valuable insights from successful women entrepreneurs and business leaders. This conference covers a wide range of topics, including business strategy, funding, marketing, and networking. Whether you're an aspiring entrepreneur or a seasoned business owner, this conference will provide you with the tools and inspiration needed to succeed.",
+    "duration": "2-week program",
+    "schedule": "Monday to Friday, 9:00 AM - 4:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Business Development Seminar",
+    "image": "https://i.ibb.co/xGSRys5/business-development.jpg",
+    "motive": "Strengthening Business Skills",
+    "price": 149.99,
+    "description": "The Business Development Seminar is designed to empower women with the skills and knowledge needed to excel in the world of business. This one-day event focuses on key aspects of business development, including market analysis, strategic planning, and customer engagement. Our expert speakers will provide practical insights and strategies to help you grow your business or career. Join us and take the next step towards achieving your business goals.",
+    "duration": "4-week program",
+    "schedule": "Tuesday and Thursday evenings, 6:00 PM - 9:00 PM"
+  },
+  {
+    "id": 3,
+    "name": "Fashion Design Boot-camp",
+    "image": "https://i.ibb.co/K5Sx8wk/fashion-design.jpg",
+    "motive": "Unlocking Creative Potential",
+    "price": 199.99,
+    "description": "Experience the Fashion Design Boot-camp, a creative journey that empowers women to unlock their fashion design potential. Over two weeks, you'll immerse yourself in the world of fashion, from sketching and fabric selection to garment construction. Our experienced instructors will guide you through the entire design process, helping you bring your fashion ideas to life. Whether you dream of becoming a fashion designer or simply want to explore your creative side, this boot-camp is your opportunity to shine.",
+    "duration": "8-week program", 
+    "schedule": "Saturdays, 10:00 AM - 2:00 PM"
+  },
+  {
+    "id": 4,
+    "name": "Vocational Workshop",
+    "image": "https://i.ibb.co/DRYvVm8/tailoring.jpg",
+    "motive": "Crafting Skills for Empowerment",
+    "price": 99.99,
+    "description": "Join the Tailoring and Hand Embroidery Workshop, a hands-on experience that empowers women through crafting skills. In this workshop, you'll learn the art of tailoring and hand embroidery, creating beautiful and unique clothing items. Our skilled instructors will teach you the basics of sewing, pattern making, and intricate hand embroidery techniques. Whether you aspire to become a skilled tailor or simply want to explore a creative hobby, this workshop is the perfect opportunity to learn and empower yourself.",
+    "duration": "10-week program", 
+    "schedule": "Monday and Wednesday mornings, 9:30 AM - 12:30 PM"
+  },
+  {
+    "id": 5,
+    "name": "Leadership and Communication Webinar",
+    "image": "https://i.ibb.co/ThfqPwR/leader-2.jpg",
+    "price": 179.99,
+    "motive": "Enhancing Leadership and Communication Skills",
+    "description": "Enhance your leadership and communication skills at our Leadership and Communication Seminar. This one-day event provides valuable tools and techniques for effective leadership and confident communication. Led by experienced professionals, you'll gain insights into leadership strategies, effective communication, and personal development. Whether you're a budding leader or a seasoned professional, this seminar is designed to empower you to excel in your career and personal life.",
+    "duration": "6-week program", 
+    "schedule": "Fridays, 9:00 AM - 12:00 PM"
+  },
+  {
+    "id": 6,
+    "name": "Financial Literacy Program",
+    "image": "https://i.ibb.co/FnHP31h/finance.jpg",
+    "motive": "Building Financial Confidence",
+    "price": 129.99,
+    "description": "The Financial Literacy Program is designed to empower women with the knowledge and skills needed for financial independence. Over the course of six weeks, you'll delve into the world of budgeting, investing, debt management, and wealth-building strategies. Our expert instructors will provide practical guidance and resources to help you make informed financial decisions. Whether you're just starting your financial journey or want to enhance your financial acumen, this program will boost your financial confidence.",
+    "duration": "5-week program", 
+    "schedule": "Monday to Wednesday, 10:00 AM - 3:00 PM"
+  }
+]
