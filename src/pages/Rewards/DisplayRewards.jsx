@@ -22,7 +22,7 @@ const DisplayRewards = () => {
                             <h2 className="card-title">Winner!</h2>
                             <p className="text-xl font-medium text-rose-500">Laptop</p>
                             <div className="card-actions justify-end">
-                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Earn</button>
+                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const DisplayRewards = () => {
                             <h2 className="card-title">1st Runners Up!</h2>
                             <p className="text-xl font-medium text-rose-500">Sewing Machine</p>
                             <div className="card-actions justify-end">
-                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Earn</button>
+                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const DisplayRewards = () => {
                             <h2 className="card-title">2nd Runners Up!</h2>
                             <p className="text-xl font-medium text-rose-500">Mobile</p>
                             <div className="card-actions justify-end">
-                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Earn</button>
+                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const DisplayRewards = () => {
                             <h2 className="card-title">All Participants!</h2>
                             <p className="text-xl font-medium text-rose-500">Certificates</p>
                             <div className="card-actions justify-end">
-                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Earn</button>
+                                <button onClick={handleEarn} className="btn text-white normal-case bg-purple-500">Gain</button>
                             </div>
                         </div>
                     </div>

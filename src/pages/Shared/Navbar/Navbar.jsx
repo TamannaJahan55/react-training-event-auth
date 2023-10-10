@@ -49,11 +49,11 @@ const Navbar = () => {
                         <div className="flex-col">
                             <label tabIndex={0} className="btn btn-ghost btn-circle normal-case avatar">
                                 <div className="w-10 rounded-full">
-                                    <img src={user.photoUrl} alt={user.displayName} />
+                                    <img src={user.photoURL} alt={user.displayName} />
                                 </div>
                             </label>
                             <div>
-                                <p className="text-purple-700 font-semibold normal-case">{user.displayName}</p>
+                                <p className="text-purple-700 text-center font-semibold normal-case">{user.displayName}</p>
                             </div>
                         </div>
                         <div>
