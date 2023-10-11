@@ -6,18 +6,18 @@ const VocationalCard = ({ works }) => {
     const { name, image, price, description } = works;
 
     const handleLearn = () =>{
-        toast.success('You are interested to learn? Register now!',{
+        toast.info('Are you interested to learn? Join our event now!',{
             position: 'top-right',
             theme: 'colored'
         })
     }
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-rose-50 shadow-xl shadow-violet-300">
             <figure><img src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title text-xl">{name}</h2>
                 <p className='text-base'>{description}</p>
-                <p className='text-base'>{price}</p>
+                <p className='text-base'>Exhibition-Price: {price}</p>
                 <button onClick={handleLearn} className='btn bg-purple-500 text-white normal-case'>Learn now</button>
             </div>
             <ToastContainer></ToastContainer>

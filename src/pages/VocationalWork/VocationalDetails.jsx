@@ -9,7 +9,7 @@ const VocationalDetails = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="bg-rose-50">
+            <div>
                 <div className="mx-10 my-20">
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
