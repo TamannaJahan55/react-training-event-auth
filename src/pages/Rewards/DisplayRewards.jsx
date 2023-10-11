@@ -7,7 +7,7 @@ const DisplayRewards = () => {
 
     const handleEarn = () =>{
          toast.success("Congratulations!!! You have gained rewards successfully.",{
-            position: "top-right",
+            position: "top-center",
             theme: "colored"
          })
     }
