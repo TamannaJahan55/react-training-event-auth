@@ -15,7 +15,7 @@ const Services = () => {
 
     const handleJoin = () =>{
          toast.success('You have joined successfully !!',{
-            position: "top-center",
+            position: "top-right",
             theme: "colored"
          })
     }
