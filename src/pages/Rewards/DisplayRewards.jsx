@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const DisplayRewards = () => {
 
     const handleEarn = () =>{
-         toast.success("Congratulations!!! You have earned rewards successfully.",{
+         toast.success("Congratulations!!! You have gained rewards successfully.",{
             position: "top-center",
             theme: "colored"
          })

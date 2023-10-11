@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../../Providers/AuthProvider";
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaGoogle, FaGithub } from 'react-icons/fa';
 
@@ -22,14 +22,13 @@ const Login = () => {
         // create new user
         signIn(email, password)
             .then(result => {
-                // validation
-                if (result.user.emailVerified) {
+                    console.log(result);
                     toast.success('User logged in successfully',{
                         position: "top-center",
                         theme: "colored"
                     });
                     navigate('/')
-                }
+            
             })
             .catch(error => {
                 toast.error('Verify your email and password', error.message);
@@ -91,7 +90,7 @@ const Login = () => {
 
                 <p className="text-center mt-4 mb-10">Do not have an account? <Link className="text-rose-700 font-bold" to='/register'>Register</Link></p>
             </div>
-            
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
