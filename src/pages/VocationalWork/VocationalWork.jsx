@@ -16,8 +16,8 @@ const VocationalWork = () => {
                 <div className="hero-content flex-col lg:flex-row gap-5">
                     <img src="https://i.ibb.co/D7rzhC3/hand-embroidery.jpg" className="max-w-md rounded-lg shadow-2xl shadow-violet-400" />
                     <div>
-                        <h1 className="text-5xl font-bold text-purple-500">Crafting at a glance !</h1>
-                        <p className="text-xl font-normal py-6">Our vocational/crafting section offers training to women at several crafting such as block-batik, tie-dye, tailoring, elegant gown, business chic blazer, classy trench coat etc.</p>
+                        <h1 className="text-5xl font-bold text-purple-500">Discover the Art of Craftsmanship!</h1>
+                        <p className="text-xl font-normal py-6">Witness the transformation of fabric into art. Experience the craftsmanship of talented women. Click here to view their creations and learn about their skills.</p>
                         <Link to='/vocationalDetails'>
                             <button className="btn text-base text-white normal-case bg-purple-500">See more</button>
                         </Link>
