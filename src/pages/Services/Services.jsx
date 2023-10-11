@@ -29,7 +29,7 @@ const Services = () => {
                             <img src={service.image} alt="Shoes" className="w-full rounded-xl border border-rose-700" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="text-2xl font-semibold text-purple-500">{service.name}</h2>
+                            <h2 className="text-2xl font-semibold text-rose-500">{service.name}</h2>
                             <p className="text-base font-normal">{service.description}</p>
                             <p className="text-xl font-medium text-purple-500">Duration: {service.duration}</p>
                             <p className="text-base font-medium text-rose-500">Schedule: {service.schedule}</p>

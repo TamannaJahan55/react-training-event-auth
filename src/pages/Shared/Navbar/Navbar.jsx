@@ -36,7 +36,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <img src={logo} alt="" />
-                <a className="btn btn-ghost normal-case text-xl font-mono text-purple-500">Empower Women</a>
+                <a className="btn btn-ghost normal-case text-xs md:text-xl lg:text-xl font-mono text-purple-500">Empower Women</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user?.email ? <div className="flex gap-2">
+                    user? <div className="flex gap-2">
                         <div className="flex-col">
                             <label tabIndex={0} className="btn btn-ghost btn-circle normal-case avatar">
                                 <div className="w-10 rounded-full">
